@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Simple Quiz App</title>
+</head>
+
+<body class="bg-purple-500 items-center flex flex-col justify-center w-[100%] m-auto">
+    <div id="main" class="rounded-xl bg-white w-[400px] p-9 m-9">
+        <h1 class="text-4xl text-black font-bold border-b-2 border-[#000] pb-3 text-center">
+            Simple Quiz App
+        </h1>
+        <div class="question">
+            <h3 id="questions" class="text-lg text-black font-bold p-3 pl-0 text-left">
+                Questions go here
+            </h3>
+
+            <div id="btns" class="flex flex-col">
+                <button class="btn text-left border-2 p-2 m-2 border-black rounded-xl hover:bg-black hover:text-white">
+                    Answer
+                </button>
+                <button class="btn text-left border-2 p-2 m-2 border-black rounded-xl hover:bg-black hover:text-white">
+                    Answer
+                </button>
+                <button class="btn text-left border-2 p-2 m-2 border-black rounded-xl hover:bg-black hover:text-white">
+                    Answer
+                </button>
+                <button class="btn text-left border-2 p-2 m-2 border-black rounded-xl hover:bg-black hover:text-white">
+                    Answer
+                </button>
+            </div>
+
+            <button id="next" class="bg-black py-2 px-4 text-white items-center mt-5">
+                Next
+            </button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
